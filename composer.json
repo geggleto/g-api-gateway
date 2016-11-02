@@ -1,0 +1,18 @@
+{
+    "name": "glenn/api-gateway",
+    "authors": [
+        {
+            "name": "Glenn Eggleton",
+            "email": "geggleto@gmail.com"
+        }
+    ],
+    "require": {
+        "slim/slim" : "^3.5",
+        "guzzlehttp/guzzle" : "~6.0"
+    },
+    "autoload" : {
+        "psr-4" : {
+            "G\\Api\\" : "src"
+        }
+    }
+}
